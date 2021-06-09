@@ -342,7 +342,7 @@
 			#address-cells = <0x1>;
 			#size-cells = <0x0>;
 
-			snps,phy-addr = <7>;
+			snps,phy-addr = <4>;
 			snps,reset-gpio = <&gpio_e 22 0>;
 			snps,reset-active-low;
 			snps,reset-delays-us = <0 10000 30000>;
