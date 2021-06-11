@@ -714,6 +714,7 @@
 		};
 	};
 
+/*
 	wifi_bcm4329 { /* wifi definition for bcmdhd.ko module */
 		compatible = "nanopi,bcm4329";
 		interrupt-parent = <&gpio_c>;
@@ -746,5 +747,6 @@
 		pinctrl-names = "default";
 		pinctrl-0 = <&touchpanel_irq>;
 	};
+*/
 };
 
