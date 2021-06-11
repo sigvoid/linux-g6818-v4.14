@@ -714,39 +714,5 @@
 		};
 	};
 
-/*
-	wifi_bcm4329 { /* wifi definition for bcmdhd.ko module */
-		compatible = "nanopi,bcm4329";
-		interrupt-parent = <&gpio_c>;
-		interrupts = <17 IRQ_TYPE_LEVEL_HIGH>;
-	};
-
-	nanopi-thermistor {
-		compatible = "friendlyarm,nanopi-thermistor";
-		status = "okay";
-
-		io-channels = <&adc 2>;
-		io-channel-names = "nanopi-thermistor";
-	};
-
-	nanopi-onewire {
-		interrupt-parent = <&gic>;
-		compatible = "friendlyarm,onewire";
-
-		channel-gpio = <&gpio_c 15 0>;
-		reg = <PHYS_BASE_TIMER 0x1000>;
-		interrupts = <0 IRQ_TIMER3 0>;
-		irq-timer = <3>;
-	};
-
-	onewire-touch {
-		compatible = "friendlyarm,onewire-touch";
-		interrupt-parent = <&gpio_c>;
-		interrupts = <16 IRQ_TYPE_NONE>;
-		i2c-bus = <&i2c_2>;
-		pinctrl-names = "default";
-		pinctrl-0 = <&touchpanel_irq>;
-	};
-*/
 };
 
